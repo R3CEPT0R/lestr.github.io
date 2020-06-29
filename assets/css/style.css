@@ -33,6 +33,7 @@
 
 #linkaqua { color: #7fe8a6; } /* CSS link color */
 
+#linkprojects{color:#5ec183;}
 #linkarrow { color: #303331; } /* CSS link color */
 
 #linkhref{color:##3ec18b;}
@@ -1452,3 +1453,19 @@ a {
 .probootstrap-animate {
   opacity: 0;
   visibility: hidden; }
+
+
+.pic {
+
+    width: 225px;
+    /* display: flex; */
+    height: 285px;
+    top: 830px;
+    left: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: inherit;
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    position: absolute;
+    /* text-align: center;
+}
