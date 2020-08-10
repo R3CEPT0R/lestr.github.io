@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="side">
+      <div class="profile_cont">
+        <img class="prof_pic" src="hito.jpg" alt="">
+      </div>
+      <ul>
+          <li><a href="index.html" class="res">Home</a></li>
+          <li><a href="portfolio.html" class="res">Portfolio</a></li>
+          <li><a href="coursework.html" class="res">Coursework</a></li>
+
+      </ul>
+      <ul class="contact">
+      <li class="r-btn"><a href="https://github.com/R3CEPT0R" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+      <li class="r-btn"><a href="https://www.linkedin.com/in/lenin-estrada-7a9ba8170/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+      <li class="r-btn"><a href="mailto:lestr3959@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+    <div class="main_cont">
+      <div class="title">
+        <p style="display:inline;position:absolute;" class="glow_title">Portfolio</p>
+      </div>
+      <div class="exp">
+        <div class="item" id="0">
+          <div id="myModal3" class="modal">
+            <div class="modal-content">
+              <p>PDFuse</p>
+              <ul>
+              <li class="li-contact">Designed and built a flask application that allows a user to manipulate, view, and edit PDF files</li>
+              <li class="li-contact">Users are able to merge, extract, delete, parse, convert, sign, encrypt, and edit singular or multiple PDF files (among other features)</li>
+              <li class="li-contact">Motivation: Problem sets needed to be scanned, but also converted into PDF format. Many times this would involve merging the files
+                thereafter. Existing sites (i.e. smallpdf, pdf.io) are either comprehensive but have a limited trial period, or are free but limited in features. I tried to
+                fuse the best of both when coding PDFuse.
+              <li class="li-contact">Tools: HTML, CSS, Flask, PDF.js, jQuery, Javascript</li>
+              <li><a href="mergepdfuse.PNG" target="_blank"><img src="mergepdfuse.PNG" style="width:420px;height:200px;"></a>
+                <a href="pdfusesign.PNG" target="_blank"><img src="pdfusesign.PNG" style="width:420px;height:200px;"></a>
+              </li>
+            </ul>
+            </div>
+          </div><img src="pdf-blue.png" class="exp-img"><div class="middle"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></div></div>
+          <div class="item" id="1">
+            <div id="myModal2" class="modal">
+              <div class="modal-content">
+                <p>Advanced Persistent Threat IDS</p>
+                <ul>
+                  <li class="li-contact">The codebase is based on the <a class="morse" href="MORSE.pdf" target="_blank">MORSE</a> APT detector (implemented in Java): https://github.com/nbshenxm/CS450_project/tree/develop</li>
+                  <li class="li-contact">Contributions include tag initialization, decay, propagation, and judge policies to mitigate the dependency explosion problem</li>
+                  <li class="li-contact">Original framework yields 708 alarms, whereas the modified version yields 267, thus displaying roughly a 62% decrease while correctly detecting malicious behavior</li>
+                </ul>
+                <p style="text-align: center;text-decoration: underline;">Final Output Scenario Graph</p>
+                <ul>
+                  <li>
+                    <iframe src="provenanceGraph.gv.pdf" width="100%" height="500px"></iframe>
+                  </li>
+                </ul>
+              </div>
+            </div><img src="lock.PNG" class="exp-img"><div class="middle"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></div></div>
+        <div class="item" id="2">
+          <div id="myModal2" class="modal">
+            <div class="modal-content">
+              <p>Huron Consulting Group (August 2014-June 2015; August 2015-June 2016)</p>
+              <p class="note">*Internship was 5 times a month each month during above time period</p>
+              <ul>
+                <li class="li-contact">Communicate problems and solutions to other team members and non-technical audiences to help resolve software-related issues with client devices</li>
+                <li class="li-contact">Utilize MS Office suite tools (Word, Excel, Outlook, PowerPoint) and adobe acrobat to complete data entry tasks related to endpoint hardware management</li>
+                <li class="li-contact">Refurbish and repair various Lenovo think pad laptop models, and ensure compliance of endpoint equipment standards as well as delivery according to IT department standards</li>
+                <li class="li-contact">Install MAC OS X and Windows operating systems to new and refurbished company laptops and desktops</li>
+                <li class="li-contact">Fulfill equipment and hardware movements and replacements across the company for endpoint devices and related equipment as required</li>
+              </ul>
+            </div>
+          </div><img src="huronLogo.jpg" class="exp-img"><div class="middle"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></div></div>
+        <div class="item" id="3">
+          <div id="myModal1" class="modal">
+            <div class="modal-content">
+              <p>Morgan Stanley (August 2013-June 2014)</p>
+              <p class="note">*Internship was 5 times a month each month during above time period</p>
+              <ul>
+                <li class="li-contact">Provide technical support to employees across the company as well as other projects as necessary</li>
+                <li class="li-contact">Utilize basic and advanced troubleshooting techniques to solve various software-related issues</li>
+                <li class="li-contact">Ensure organization of inventory for quick retrieval of essential tools and endpoint devices needed for resolution of client issues and keep track of count to pinpoint repair needs and verify accurate stock</li>
+                <li class="li-contact">Troubleshoot and resolve mobile device issues (iPhone and Blackberry models)</li>
+              </ul>
+            </div>
+          </div><img src="ms.jpg" class="exp-img"><div class="middle"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></div></div>
+
+      </div>
+    </div>
+
+      <script src="https://use.fontawesome.com/d483d5fbb1.js"></script>
+      <script>
+        $( ".item" ).click(function() {
+  var modal=this.children[0];
+  modal.style.display = "block";
+  var btn=document.getElementById(this.id);
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+});
+
+      </script>
+    </body>
+</html>
